@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.css"
+      integrity="sha512-dlzxoRxU0/ZfgAUFn+8LwmuvNCrVZ3gnPedd8c3m5YwEq1bory6yFCt3uOzDTxnY4fTqVpM0Twxcn8scmBvuQg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header id="header" class="shadow bg-light">
+      <nav class="container navbar">
+        <a href="/index.html" class="nav-brand text-dark">BlogY</a>
+
+        <!-- Toggle Button -->
+        <button class="toggle-button">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!-- Collapse on Toggle -->
+        <div class="collapse">
+          <ul class="navbar-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="article.html" class="nav-link">Blog</a>
+            <a href="sidebar.html" class="nav-link">Pages</a>
+            <a href="sidebar.html" class="nav-link">Categories</a>
+            <a href="article.html" class="nav-link">About</a>
+            <a href="article.html" class="nav-link">Contact</a>
+          </ul>
+        </div>
+
+        <div class="collapse">
+          <ul class="navbar-nav">
+            <div class="search-box">
+              <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--X Header X-->
+
+    <!-- Main Section -->
+
+    <main id="site-main">
+       
+      <!-- Post Content -->
+
+      <section class="container">
+         <article id="post">
+            <div class="headings text-center">
+               <div class="category">
+                  <a href="#" class="nav-link">Travel</a>
+               </div>
+
+               <div class="title">
+                  <h2 class="text-title text-dark display-1">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+               </div>
+
+               <div class="meta">
+                  <a href="#" class="link display-2 text-secondary px-1">
+                     <i class="fas fa-user text-primary"></i>Stephen Hawking
+                  </a>
+                  <a href="#" class="link display-2 text-secondary px-1">
+                     <i class="fas fa-clock text-primary"></i>Clock Wed 02, 2021
+                  </a>
+                  <a href="#" class="link display-2 text-secondary px-1">
+                     <i class="fas fa-comments text-primary"></i>12
+                  </a>
+               </div>
+            </div>
+            <!-- Thumbnail -->
+            <div class="thumbnail mt-3">
+               <img src="assets/img1.jpg" class="thumbnail" alt="">
+            </div>
+            <!-- Content -->
+            <div class="content text-dark display-2 secondary-title">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima adipisci cupiditate blanditiis quae! Commodi aut sit dolor veritatis. Aliquam asperiores odit accusamus, obcaecati beatae quo inventore accusantium. Voluptatibus vero atque omnis officia quidem animi suscipit eum error molestias, consequuntur tempore!</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsa commodi voluptate, minus doloremque quo molestiae illo. Modi, aperiam quaerat!</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit itaque consectetur dolores vel, dolorum, vero dignissimos porro aut, maxime eos ipsa? Earum magnam, veritatis perspiciatis maiores natus repellat numquam veniam!</p>
+            </div>
+         </article>
+
+         
+      <!-- Post Footer -->
+
+      <div class="post-footer mb-3">
+         <div class="post-tags d-flex flex-wrap justify-content-center">
+            <a href="#" class="nav-link btn bg-light">Travel</a>
+            <a href="#" class="nav-link btn bg-light">Food</a>
+            <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+            <a href="#" class="nav-link btn bg-light">Technology</a>
+            <a href="#" class="nav-link btn bg-light">Fashion</a>
+         </div>
+
+         <div class="post-author text-center">
+            <div class="author-avatar">
+               <img src="assets/face/face1.jpg" class="rounded" alt="">
+            </div>
+
+            <div class="author-info py-2">
+               <h3 class="text-dark">Stephen Steve</h3>
+               <p class="text-secondary secondary-title">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, laudantium inventore nesciunt quasi magni ea eaque doloremque earum commodi nulla!
+               </p>
+
+               <div class="post-tags d-flex flex-wrap justify-content-center">
+                  <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Post related -->
+         <div class="post-related py-2">
+            <div class="row justify-content-center">
+               <div class="prev">
+                  <div class="py-2">
+                     <a href="#" class="display-2 text-dark">
+                        <i class="fas fa-chevron-left"></i> Previous Post
+                     </a>
+                  </div>
+                  <article class="article text-center">
+                     <div class="d-flex">
+                        <a href="#">
+                           <img src="assets/img9.jpg" class="object-fit" alt="">
+                        </a>
+                        <div class="cart-body px-1">
+                           <div class="category">
+                              <a href="#" class="link text-primary text-secondary">Fashion</a>
+                           </div>
+                           <a href="#" class="text-title display-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+               <div class="next text-right">
+                  <div class="py-2">
+                     <a href="#" class="display-2 text-dark">
+                        Next Post <i class="fas fa-chevron-right"></i>
+                     </a>
+                  </div>
+                  <article class="article text-center">
+                     <div class="d-flex">
+                        <a href="#">
+                           <img src="assets/img8.jpg" class="object-fit" alt="">
+                        </a>
+                        <div class="cart-body px-1">
+                           <div class="category">
+                              <a href="#" class="link text-primary text-secondary">Fashion</a>
+                           </div>
+                           <a href="#" class="text-title display-1 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing.</a>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </div>
+
+         <!-- Comments -->
+         <div class="post-comments py-2">
+            <h3 class="text-center display-1 secondary-title py-2">6 Comments</h3>
+
+            <div class="comment-details">
+               <div class="comment-item py-2">
+                  <div class="d-flex">
+                     <div class="avatar px-2">
+                        <img src="assets/face/face1.jpg" class="rounded" alt="">
+                     </div>
+                     <div class="comment-content">
+                        <h5 class="display-2 m-0">Joe Taylor</h5>
+                        <p class="title-secondary text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis corrupti, aliquam asperiores libero non voluptatem maiores eum dolores dicta?
+                        </p>
+                     </div>
+                  </div>
+                  <div class="reply py-2">
+                     <div class="d-flex">
+                        <div class="avatar px-2">
+                           <img src="assets/face/face2.jpg" class="rounded" alt="">
+                        </div>
+                        <div class="comment-content">
+                           <h5 class="display-2 m-0">Joe Taylor</h5>
+                           <p class="title-secondary text-dark">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis corrupti, aliquam asperiores libero non voluptatem maiores eum dolores dicta?
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="comment-item py-2">
+                  <div class="d-flex">
+                     <div class="avatar px-2">
+                        <img src="assets/face/face3.jpg" class="rounded" alt="">
+                     </div>
+                     <div class="comment-content">
+                        <h5 class="display-2 m-0">Joe Taylor</h5>
+                        <p class="title-secondary text-dark">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci officiis corrupti, aliquam asperiores libero non voluptatem maiores eum dolores dicta?
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Form -->
+            <div class="comment-form">
+               <h3 class="text-center display-1 secondary-title py-2">Leave a Comment</h3>
+               <div class="d-flex justify-content-between flex-wrap">
+                  <input type="text" class="form-control" placeholder="Name">
+                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="text" class="form-control" placeholder="Website">
+               </div>
+               <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+               <div class="text-center">
+                  <button class="btn btn-primary display-2 text-light mt-2">Submit</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!--X Post Footer X-->
+      </section>
+
+      <!--X Post Content X-->
+
+
+      <!-- Swiper Slider -->
+      <section class="slider">
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                 <a href="#">
+                    <img src="assets/slider/img1.jpg" class="img-fluid" alt="">
+                 </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img2.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img3.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img4.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img5.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img6.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+              <!-- Slides -->
+              <div class="swiper-slide">
+               <a href="#">
+                  <img src="assets/slider/img7.jpg" class="img-fluid" alt="">
+               </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--X Swiper Slider X-->
+    </main>
+
+    <!--X Main Section X-->
+
+    <!-- Footer -->
+    <footer id="footer">
+       <div class="container">
+          <div class="row mb-3">
+             <div class="col-3">
+                <h2 class="footer-title secondary-title">About Us</h2>
+                <div class="secondary-title text-secondary">
+                   <p class="mt-2">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo incidunt pariatur dolorum eos. Fugiat, accusamus.
+                   </p>
+
+                   <address>
+                      <i class="fas fa-map-marker-alt text-primary"></i>
+                      123, Brooklyn Street, Newyork
+                   </address>
+
+                   <div class="phone">
+                     <i class="fas fa-mobile text-primary"></i>
+                     123-456789
+                   </div>
+
+                   <div class="email">
+                     <i class="fas fa-envelope text-primary"></i>
+                     demo@gmail.com
+                   </div>
+                </div>
+             </div>
+             <div class="col-3">
+                <h2 class="footer-title secondary-title">Feature Post</h2>
+                <div class="feature-post">
+                   <div class="flex-item">
+                      <article class="article">
+                         <div class="d-flex">
+                            <a href="#">
+                               <img src="assets/img9.jpg" class="object-fit px-1" alt="">
+                               <div class="px-1">
+                                  <a href="#" class="text-title display-2 text-dark">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                  </a>
+                                  <p class="csecondary-title text-secondary display-3">
+                                     <span><i class="far fa-colock text-primary"></i>Clock Wed 02, 2021</span>
+                                  </p>
+                               </div>
+                            </a>
+                         </div>
+                      </article>
+                   </div>
+                   <div class="flex-item">
+                     <article class="article">
+                        <div class="d-flex">
+                           <a href="#">
+                              <img src="assets/img1.jpg" class="object-fit px-1" alt="">
+                              <div class="px-1">
+                                 <a href="#" class="text-title display-2 text-dark">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 </a>
+                                 <p class="csecondary-title text-secondary display-3">
+                                    <span><i class="far fa-colock text-primary"></i>Clock Wed 02, 2021</span>
+                                 </p>
+                              </div>
+                           </a>
+                        </div>
+                     </article>
+                  </div>
+                  <div class="flex-item">
+                     <article class="article">
+                        <div class="d-flex">
+                           <a href="#">
+                              <img src="assets/img2.jpg" class="object-fit px-1" alt="">
+                              <div class="px-1">
+                                 <a href="#" class="text-title display-2 text-dark">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 </a>
+                                 <p class="csecondary-title text-secondary display-3">
+                                    <span><i class="far fa-colock text-primary"></i>Clock Wed 02, 2021</span>
+                                 </p>
+                              </div>
+                           </a>
+                        </div>
+                     </article>
+                  </div>
+                </div>
+             </div>
+             <div class="col-3">
+                <h2 class="footer-title secondary-title">Tags</h2>
+                <div class="tags">
+                   <div class="d-flex flex-wrap">
+                      <a href="#" class="nav-link btn bg-light">Travel</a>
+                      <a href="#" class="nav-link btn bg-light">Food</a>
+                      <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+                      <a href="#" class="nav-link btn bg-light">Technology</a>
+                      <a href="#" class="nav-link btn bg-light">Fashion</a>
+                   </div>
+                </div>
+                <h2 class="footer-title secondary-title mt-2">Socials</h2>
+                <div class="tags social">
+                   <div class="d-flex flex-wrap">
+                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-dribbble"></i></a>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <!-- Copyrights -->
+          <div class="copyrights">
+             <p class="text-center text-secondary display-2">
+                &copy; 2022 <a href="#" class="text-primary">Sazzad Hossain</a> - Personal Blog. All rights reserved.
+             </p>
+          </div>
+       </div>
+    </footer>
+    <!--X Footer X-->
+
+    <!-- Masonry library JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
+      integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.js"
+      integrity="sha512-4w/aaXboO6KY1E/dqYwfq09sZnM+XDIcWvmHhfxvMQ+qwK84kxgWtNkAqbFNMLYd6EYA3nSgxTSyif/D3vlVMg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Custom js -->
+    <script src="main.js"></script>
+  </body>
+</html>
